@@ -16,9 +16,6 @@ const Header: React.FC = () => {
           <li>
             <a href="#contact">Contact</a>
           </li>
-          <li>
-            <a href="#setting">Setting</a>
-          </li>
         </ul>
       </nav>
     </header>
