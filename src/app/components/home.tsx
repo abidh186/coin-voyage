@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Transactions from './transactions';
+import TransactionsList from './transactionsList';
 import transactionsData from '../transactions.json';
 import { format, startOfWeek, endOfWeek } from 'date-fns';
 
@@ -11,6 +12,7 @@ function Home() {
   );
   const [accountData, setAccountData] = useState<{ [key: string]: number }>({});
   const [periodData, setPeriodData] = useState<{ [key: string]: number }>({});
+  const [showChart, setShowChart] = useState(true);
 
   useEffect(() => {
     interface Transaction {
@@ -64,11 +66,18 @@ function Home() {
 
   return (
     <div>
-      <Transactions
-        categoryData={categoryData}
-        accountData={accountData}
-        periodData={periodData}
-      />
+      <button onClick={() => setShowChart(!showChart)}>
+        {showChart ? 'Show List' : 'Show Chart'}
+      </button>
+      {showChart ? (
+        <Transactions
+          categoryData={categoryData}
+          accountData={accountData}
+          periodData={periodData}
+        />
+      ) : (
+        <TransactionsList transactionsData={transactionsData} />
+      )}
     </div>
   );
 }

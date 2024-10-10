@@ -1,554 +1,10 @@
 {
   "5bD6pXvpX": {
-    "name": "chase",
+    "name": "Account 1",
     "id": "5bD6pXvpX",
     "transactions": [
       {
         "account_id": "5bD6pXvpX",
-        "amount": -25.37,
-        "category": ["Utilities", "Electricity"],
-        "category_id": "20001000",
-        "date": "2024-09-12",
-        "iso_currency_code": "USD",
-        "merchant_name": "ELECTRIC COMPANY",
-        "name": "Electricity bill payment",
-        "transaction_id": "WeEzp3zpR0"
-      },
-      {
-        "account_id": "5bD6pXvpX",
-        "amount": -80.45,
-        "category": ["Home Improvement", "Furniture"],
-        "category_id": "21012000",
-        "date": "2024-09-13",
-        "iso_currency_code": "USD",
-        "merchant_name": "FURNITURE STORE",
-        "name": "Furniture purchase at FURNITURE STORE",
-        "transaction_id": "XeFzp4zpS1"
-      },
-      {
-        "account_id": "5bD6pXvpX",
-        "amount": -60.78,
-        "category": ["Education", "Books and Supplies"],
-        "category_id": "16001000",
-        "date": "2024-09-14",
-        "iso_currency_code": "USD",
-        "merchant_name": "BOOKSTORE",
-        "name": "Books purchase at BOOKSTORE",
-        "transaction_id": "YeGzp5zpT2"
-      },
-      {
-        "account_id": "5bD6pXvpX",
-        "amount": -45.23,
-        "category": ["Food and Drink", "Restaurants"],
-        "category_id": "13005000",
-        "date": "2024-09-15",
-        "iso_currency_code": "USD",
-        "merchant_name": "ABC RESTAURANT",
-        "name": "Dinner at ABC RESTAURANT",
-        "transaction_id": "ZeHzp6zpU3"
-      },
-      {
-        "account_id": "5bD6pXvpX",
-        "amount": -30.12,
-        "category": ["Entertainment", "Movies"],
-        "category_id": "17018000",
-        "date": "2024-09-16",
-        "iso_currency_code": "USD",
-        "merchant_name": "MOVIE THEATER",
-        "name": "Movie tickets at MOVIE THEATER",
-        "transaction_id": "AeIzp7zpV4"
-      },
-      {
-        "account_id": "5bD6pXvpX",
-        "amount": -75.89,
-        "category": ["Shopping", "Clothing"],
-        "category_id": "19012000",
-        "date": "2024-09-17",
-        "iso_currency_code": "USD",
-        "merchant_name": "CLOTHING STORE",
-        "name": "Purchase at CLOTHING STORE",
-        "transaction_id": "BeJzp8zpW5"
-      },
-      {
-        "account_id": "5bD6pXvpX",
-        "amount": -20.34,
-        "category": ["Transportation", "Public Transportation"],
-        "category_id": "22016000",
-        "date": "2024-09-18",
-        "iso_currency_code": "USD",
-        "merchant_name": "CITY TRANSIT",
-        "name": "Transit fare at CITY TRANSIT",
-        "transaction_id": "CeKzp9zpX6"
-      },
-      {
-        "account_id": "5bD6pXvpX",
-        "amount": -95.67,
-        "category": ["Travel", "Airlines and Aviation Services"],
-        "category_id": "22001000",
-        "date": "2024-09-19",
-        "iso_currency_code": "USD",
-        "merchant_name": "AIRLINE",
-        "name": "Flight booking with AIRLINE",
-        "transaction_id": "DeLzp0zpY7"
-      },
-      {
-        "account_id": "5bD6pXvpX",
-        "amount": -10.99,
-        "category": ["Health and Wellness", "Pharmacy"],
-        "category_id": "18018000",
-        "date": "2024-09-20",
-        "iso_currency_code": "USD",
-        "merchant_name": "PHARMACY",
-        "name": "Medicine purchase at PHARMACY",
-        "transaction_id": "EeMzp1zpZ8"
-      },
-      {
-        "account_id": "5bD6pXvpX",
-        "amount": -50.5,
-        "category": ["Transfer", "Credit"],
-        "category_id": "21007000",
-        "date": "2024-09-21",
-        "iso_currency_code": "USD",
-        "merchant_name": "XYZ BANK",
-        "name": "CREDIT Deposit from ****3455",
-        "transaction_id": "FeNzp2zpA9"
-      },
-      {
-        "account_id": "5bD6pXvpX",
-        "amount": -40.75,
-        "category": ["Food and Drink", "Fast Food"],
-        "category_id": "13005001",
-        "date": "2024-09-22",
-        "iso_currency_code": "USD",
-        "merchant_name": "FAST FOOD PLACE",
-        "name": "Lunch at FAST FOOD PLACE",
-        "transaction_id": "GeOzq3zpB0"
-      },
-      {
-        "account_id": "5bD6pXvpX",
-        "amount": -15.6,
-        "category": ["Entertainment", "Concerts"],
-        "category_id": "17018001",
-        "date": "2024-09-23",
-        "iso_currency_code": "USD",
-        "merchant_name": "CONCERT VENUE",
-        "name": "Concert tickets at CONCERT VENUE",
-        "transaction_id": "HePzq4zpC1"
-      },
-      {
-        "account_id": "5bD6pXvpX",
-        "amount": -70.8,
-        "category": ["Shopping", "Electronics"],
-        "category_id": "19012001",
-        "date": "2024-09-24",
-        "iso_currency_code": "USD",
-        "merchant_name": "ELECTRONICS STORE",
-        "name": "Purchase at ELECTRONICS STORE",
-        "transaction_id": "IeQzq5zpD2"
-      },
-      {
-        "account_id": "5bD6pXvpX",
-        "amount": -35.4,
-        "category": ["Transportation", "Taxi"],
-        "category_id": "22016001",
-        "date": "2024-09-25",
-        "iso_currency_code": "USD",
-        "merchant_name": "TAXI SERVICE",
-        "name": "Taxi fare at TAXI SERVICE",
-        "transaction_id": "JeRzq6zpE3"
-      },
-      {
-        "account_id": "5bD6pXvpX",
-        "amount": -85.9,
-        "category": ["Travel", "Hotels"],
-        "category_id": "22001001",
-        "date": "2024-09-26",
-        "iso_currency_code": "USD",
-        "merchant_name": "HOTEL",
-        "name": "Hotel booking with HOTEL",
-        "transaction_id": "KeSzq7zpF4"
-      },
-      {
-        "account_id": "5bD6pXvpX",
-        "amount": -5.25,
-        "category": ["Health and Wellness", "Gym"],
-        "category_id": "18018001",
-        "date": "2024-09-27",
-        "iso_currency_code": "USD",
-        "merchant_name": "GYM",
-        "name": "Gym membership at GYM",
-        "transaction_id": "LeTzq8zpG5"
-      },
-      {
-        "account_id": "5bD6pXvpX",
-        "amount": -55.55,
-        "category": ["Transfer", "Debit"],
-        "category_id": "21007001",
-        "date": "2024-09-28",
-        "iso_currency_code": "USD",
-        "merchant_name": "XYZ BANK",
-        "name": "DEBIT Withdrawal from ****1234",
-        "transaction_id": "MeUzq9zpH6"
-      },
-      {
-        "account_id": "5bD6pXvpX",
-        "amount": -65.65,
-        "category": ["Food and Drink", "Groceries"],
-        "category_id": "13005002",
-        "date": "2024-09-29",
-        "iso_currency_code": "USD",
-        "merchant_name": "GROCERY STORE",
-        "name": "Groceries at GROCERY STORE",
-        "transaction_id": "NeVzq0zpI7"
-      },
-      {
-        "account_id": "5bD6pXvpX",
-        "amount": -95.95,
-        "category": ["Entertainment", "Games"],
-        "category_id": "17018002",
-        "date": "2024-09-30",
-        "iso_currency_code": "USD",
-        "merchant_name": "GAME STORE",
-        "name": "Games purchase at GAME STORE",
-        "transaction_id": "OeWzq1zpJ8"
-      },
-      {
-        "account_id": "5bD6pXvpX",
-        "amount": -75.75,
-        "category": ["Shopping", "Books"],
-        "category_id": "19012002",
-        "date": "2024-10-01",
-        "iso_currency_code": "USD",
-        "merchant_name": "BOOKSTORE",
-        "name": "Books purchase at BOOKSTORE",
-        "transaction_id": "PeXzq2zpK9"
-      }
-    ]
-  },
-  "6cE7qYwqY": {
-    "name": "Chase Saphire Reserve",
-    "id": "6cE7qYwqY",
-    "transactions": [
-      {
-        "account_id": "6cE7qYwqY",
-        "amount": -45.67,
-        "category": ["Utilities", "Water"],
-        "category_id": "20002000",
-        "date": "2024-10-02",
-        "iso_currency_code": "USD",
-        "merchant_name": "WATER COMPANY",
-        "name": "Water bill payment",
-        "transaction_id": "QeYzq3zpL0"
-      },
-      {
-        "account_id": "6cE7qYwqY",
-        "amount": -120.45,
-        "category": ["Home Improvement", "Garden"],
-        "category_id": "21013000",
-        "date": "2024-10-03",
-        "iso_currency_code": "USD",
-        "merchant_name": "GARDEN STORE",
-        "name": "Garden supplies purchase",
-        "transaction_id": "ReZzq4zpM1"
-      },
-      {
-        "account_id": "6cE7qYwqY",
-        "amount": -35.78,
-        "category": ["Education", "Tuition"],
-        "category_id": "16002000",
-        "date": "2024-10-04",
-        "iso_currency_code": "USD",
-        "merchant_name": "UNIVERSITY",
-        "name": "Tuition payment",
-        "transaction_id": "SeAzq5zpN2"
-      },
-      {
-        "account_id": "6cE7qYwqY",
-        "amount": -55.23,
-        "category": ["Food and Drink", "Cafes"],
-        "category_id": "13006000",
-        "date": "2024-10-05",
-        "iso_currency_code": "USD",
-        "merchant_name": "CAFE",
-        "name": "Coffee at CAFE",
-        "transaction_id": "TeBzq6zpO3"
-      },
-      {
-        "account_id": "6cE7qYwqY",
-        "amount": -40.12,
-        "category": ["Entertainment", "Theater"],
-        "category_id": "17019000",
-        "date": "2024-10-06",
-        "iso_currency_code": "USD",
-        "merchant_name": "THEATER",
-        "name": "Theater tickets",
-        "transaction_id": "UeCzq7zpP4"
-      },
-      {
-        "account_id": "6cE7qYwqY",
-        "amount": -95.89,
-        "category": ["Shopping", "Shoes"],
-        "category_id": "19013000",
-        "date": "2024-10-07",
-        "iso_currency_code": "USD",
-        "merchant_name": "SHOE STORE",
-        "name": "Shoe purchase",
-        "transaction_id": "VeDzq8zpQ5"
-      },
-      {
-        "account_id": "6cE7qYwqY",
-        "amount": -25.34,
-        "category": ["Transportation", "Bus"],
-        "category_id": "22017000",
-        "date": "2024-10-08",
-        "iso_currency_code": "USD",
-        "merchant_name": "BUS SERVICE",
-        "name": "Bus fare",
-        "transaction_id": "WeEzq9zpR6"
-      },
-      {
-        "account_id": "6cE7qYwqY",
-        "amount": -105.67,
-        "category": ["Travel", "Car Rental"],
-        "category_id": "22002000",
-        "date": "2024-10-09",
-        "iso_currency_code": "USD",
-        "merchant_name": "CAR RENTAL",
-        "name": "Car rental",
-        "transaction_id": "XeFzq0zpS7"
-      },
-      {
-        "account_id": "6cE7qYwqY",
-        "amount": -15.99,
-        "category": ["Health and Wellness", "Doctor"],
-        "category_id": "18019000",
-        "date": "2024-10-10",
-        "iso_currency_code": "USD",
-        "merchant_name": "DOCTOR'S OFFICE",
-        "name": "Doctor visit",
-        "transaction_id": "YeGzq1zpT8"
-      },
-      {
-        "account_id": "6cE7qYwqY",
-        "amount": -60.5,
-        "category": ["Transfer", "Wire"],
-        "category_id": "21008000",
-        "date": "2024-10-11",
-        "iso_currency_code": "USD",
-        "merchant_name": "XYZ BANK",
-        "name": "Wire transfer",
-        "transaction_id": "ZeHzq2zpU9"
-      },
-      {
-        "account_id": "6cE7qYwqY",
-        "amount": -30.75,
-        "category": ["Food and Drink", "Bakery"],
-        "category_id": "13007000",
-        "date": "2024-10-12",
-        "iso_currency_code": "USD",
-        "merchant_name": "BAKERY",
-        "name": "Bakery purchase",
-        "transaction_id": "AeIzq3zpV0"
-      },
-      {
-        "account_id": "6cE7qYwqY",
-        "amount": -20.6,
-        "category": ["Entertainment", "Sports"],
-        "category_id": "17020000",
-        "date": "2024-10-13",
-        "iso_currency_code": "USD",
-        "merchant_name": "SPORTS ARENA",
-        "name": "Sports event tickets",
-        "transaction_id": "BeJzq4zpW1"
-      },
-      {
-        "account_id": "6cE7qYwqY",
-        "amount": -85.8,
-        "category": ["Shopping", "Jewelry"],
-        "category_id": "19014000",
-        "date": "2024-10-14",
-        "iso_currency_code": "USD",
-        "merchant_name": "JEWELRY STORE",
-        "name": "Jewelry purchase",
-        "transaction_id": "CeKzq5zpX2"
-      },
-      {
-        "account_id": "6cE7qYwqY",
-        "amount": -45.4,
-        "category": ["Transportation", "Train"],
-        "category_id": "22018000",
-        "date": "2024-10-15",
-        "iso_currency_code": "USD",
-        "merchant_name": "TRAIN SERVICE",
-        "name": "Train fare",
-        "transaction_id": "DeLzq6zpY3"
-      },
-      {
-        "account_id": "6cE7qYwqY",
-        "amount": -75.9,
-        "category": ["Travel", "Cruises"],
-        "category_id": "22003000",
-        "date": "2024-10-16",
-        "iso_currency_code": "USD",
-        "merchant_name": "CRUISE LINE",
-        "name": "Cruise booking",
-        "transaction_id": "EeMzq7zpZ4"
-      },
-      {
-        "account_id": "6cE7qYwqY",
-        "amount": -10.25,
-        "category": ["Health and Wellness", "Dentist"],
-        "category_id": "18020000",
-        "date": "2024-10-17",
-        "iso_currency_code": "USD",
-        "merchant_name": "DENTIST",
-        "name": "Dentist visit",
-        "transaction_id": "FeNzq8zpA5"
-      },
-      {
-        "account_id": "6cE7qYwqY",
-        "amount": -65.55,
-        "category": ["Transfer", "ACH"],
-        "category_id": "21009000",
-        "date": "2024-10-18",
-        "iso_currency_code": "USD",
-        "merchant_name": "XYZ BANK",
-        "name": "ACH transfer",
-        "transaction_id": "GeOzq9zpB6"
-      },
-      {
-        "account_id": "6cE7qYwqY",
-        "amount": -75.65,
-        "category": ["Food and Drink", "Catering"],
-        "category_id": "13008000",
-        "date": "2024-10-19",
-        "iso_currency_code": "USD",
-        "merchant_name": "CATERING SERVICE",
-        "name": "Catering service",
-        "transaction_id": "HePzq0zpC7"
-      },
-      {
-        "account_id": "6cE7qYwqY",
-        "amount": -95.95,
-        "category": ["Entertainment", "Amusement Parks"],
-        "category_id": "17021000",
-        "date": "2024-10-20",
-        "iso_currency_code": "USD",
-        "merchant_name": "AMUSEMENT PARK",
-        "name": "Amusement park tickets",
-        "transaction_id": "IeQzq1zpD8"
-      },
-      {
-        "account_id": "6cE7qYwqY",
-        "amount": -85.75,
-        "category": ["Shopping", "Toys"],
-        "category_id": "19015000",
-        "date": "2024-10-21",
-        "iso_currency_code": "USD",
-        "merchant_name": "TOY STORE",
-        "name": "Toy purchase",
-        "transaction_id": "JeRzq2zpE9"
-      }
-    ]
-  },
-  "7dF8rZxrZ": {
-    "name": "Amex",
-    "id": "7dF8rZxrZ",
-    "transactions": [
-      {
-        "account_id": "7dF8rZxrZ",
-        "amount": -35.67,
-        "category": ["Utilities", "Gas"],
-        "category_id": "20003000",
-        "date": "2024-10-22",
-        "iso_currency_code": "USD",
-        "merchant_name": "GAS STATION",
-        "name": "Gas bill payment",
-        "transaction_id": "QeYzq3zpL0"
-      },
-      {
-        "account_id": "7dF8rZxrZ",
-        "amount": -100.45,
-        "category": ["Home Improvement", "Appliances"],
-        "category_id": "21014000",
-        "date": "2024-10-23",
-        "iso_currency_code": "USD",
-        "merchant_name": "APPLIANCE STORE",
-        "name": "Appliances purchase",
-        "transaction_id": "ReZzq4zpM1"
-      },
-      {
-        "account_id": "7dF8rZxrZ",
-        "amount": -25.78,
-        "category": ["Education", "School Fees"],
-        "category_id": "16003000",
-        "date": "2024-10-24",
-        "iso_currency_code": "USD",
-        "merchant_name": "SCHOOL",
-        "name": "School fees payment",
-        "transaction_id": "SeAzq5zpN2"
-      },
-      {
-        "account_id": "7dF8rZxrZ",
-        "amount": -45.23,
-        "category": ["Food and Drink", "Bars"],
-        "category_id": "13007000",
-        "date": "2024-10-25",
-        "iso_currency_code": "USD",
-        "merchant_name": "BAR",
-        "name": "Drinks at BAR",
-        "transaction_id": "TeBzq6zpO3"
-      },
-      {
-        "account_id": "7dF8rZxrZ",
-        "amount": -30.12,
-        "category": ["Entertainment", "Music"],
-        "category_id": "17020000",
-        "date": "2024-10-26",
-        "iso_currency_code": "USD",
-        "merchant_name": "MUSIC STORE"
-      }
-    ]
-  },
-  "8eG9sYysA": {
-    "name": "Bank of America",
-    "id": "8eG9sYysA",
-    "transactions": [
-      {
-        "account_id": "8eG9sYysA",
-        "amount": -55.67,
-        "category": ["Utilities", "Internet"],
-        "category_id": "20004000",
-        "date": "2024-10-27",
-        "iso_currency_code": "USD",
-        "merchant_name": "INTERNET PROVIDER",
-        "name": "Internet bill payment",
-        "transaction_id": "QeYzq3zpL0"
-      },
-      {
-        "account_id": "8eG9sYysA",
-        "amount": -80.45,
-        "category": ["Home Improvement", "Tools"],
-        "category_id": "21015000",
-        "date": "2024-10-28",
-        "iso_currency_code": "USD",
-        "merchant_name": "HARDWARE STORE",
-        "name": "Tools purchase",
-        "transaction_id": "ReZzq4zpM1"
-      },
-      {
-        "account_id": "8eG9sYysA",
-        "amount": -45.78,
-        "category": ["Education", "Courses"],
-        "category_id": "16004000",
-        "date": "2024-10-29",
-        "iso_currency_code": "USD",
-        "merchant_name": "ONLINE COURSE",
-        "name": "Online course fee",
-        "transaction_id": "SeAzq5zpN2"
-      },
-      {
-        "account_id": "8eG9sYysA",
         "amount": -65.23,
         "category": ["Food and Drink", "Grocery Store"],
         "category_id": "13008000",
@@ -559,7 +15,7 @@
         "transaction_id": "TeBzq6zpO3"
       },
       {
-        "account_id": "8eG9sYysA",
+        "account_id": "5bD6pXvpX",
         "amount": -40.12,
         "category": ["Entertainment", "Music"],
         "category_id": "17021000",
@@ -568,6 +24,376 @@
         "merchant_name": "MUSIC STORE",
         "name": "Music purchase",
         "transaction_id": "UeCzq7zpP4"
+      },
+      {
+        "account_id": "5bD6pXvpX",
+        "amount": -15.0,
+        "category": ["Transport", "Bus"],
+        "category_id": "22014000",
+        "date": "2024-11-01",
+        "iso_currency_code": "USD",
+        "merchant_name": "BUS SERVICE",
+        "name": "Bus ride",
+        "transaction_id": "WeFzq9zpR6"
+      },
+      {
+        "account_id": "5bD6pXvpX",
+        "amount": -25.0,
+        "category": ["Food and Drink", "Restaurant"],
+        "category_id": "13005000",
+        "date": "2024-11-02",
+        "iso_currency_code": "USD",
+        "merchant_name": "RESTAURANT",
+        "name": "Dinner at RESTAURANT",
+        "transaction_id": "XeGzq0zpS7"
+      },
+      {
+        "account_id": "5bD6pXvpX",
+        "amount": -50.0,
+        "category": ["Shopping", "Clothing"],
+        "category_id": "19012000",
+        "date": "2024-11-03",
+        "iso_currency_code": "USD",
+        "merchant_name": "CLOTHING STORE",
+        "name": "Clothes purchase",
+        "transaction_id": "YeHzq1zpT8"
+      },
+      {
+        "account_id": "5bD6pXvpX",
+        "amount": -30.0,
+        "category": ["Entertainment", "Movies"],
+        "category_id": "17018000",
+        "date": "2024-11-04",
+        "iso_currency_code": "USD",
+        "merchant_name": "MOVIE THEATER",
+        "name": "Movie tickets",
+        "transaction_id": "ZeIzq2zpU9"
+      },
+      {
+        "account_id": "5bD6pXvpX",
+        "amount": -10.0,
+        "category": ["Food and Drink", "Cafe"],
+        "category_id": "13005000",
+        "date": "2024-11-05",
+        "iso_currency_code": "USD",
+        "merchant_name": "CAFE",
+        "name": "Coffee at CAFE",
+        "transaction_id": "AeJzq3zpV0"
+      },
+      {
+        "account_id": "5bD6pXvpX",
+        "amount": -100.0,
+        "category": ["Travel", "Flight"],
+        "category_id": "22001000",
+        "date": "2024-11-06",
+        "iso_currency_code": "USD",
+        "merchant_name": "AIRLINE",
+        "name": "Flight ticket",
+        "transaction_id": "BeKzq4zpW1"
+      },
+      {
+        "account_id": "5bD6pXvpX",
+        "amount": -75.0,
+        "category": ["Shopping", "Electronics"],
+        "category_id": "19013000",
+        "date": "2024-11-07",
+        "iso_currency_code": "USD",
+        "merchant_name": "ELECTRONICS STORE",
+        "name": "Gadget purchase",
+        "transaction_id": "CeLzq5zpX2"
+      }
+    ]
+  },
+  "6cE7qYwqY": {
+    "name": "Account 2",
+    "id": "6cE7qYwqY",
+    "transactions": [
+      {
+        "account_id": "6cE7qYwqY",
+        "amount": -20.0,
+        "category": ["Travel", "Taxi"],
+        "category_id": "22014000",
+        "date": "2024-11-01",
+        "iso_currency_code": "USD",
+        "merchant_name": "TAXI SERVICE",
+        "name": "Taxi ride",
+        "transaction_id": "VeDzq8zpQ5"
+      },
+      {
+        "account_id": "6cE7qYwqY",
+        "amount": -15.0,
+        "category": ["Food and Drink", "Cafe"],
+        "category_id": "13005000",
+        "date": "2024-11-02",
+        "iso_currency_code": "USD",
+        "merchant_name": "CAFE",
+        "name": "Coffee at CAFE",
+        "transaction_id": "WeEzq9zpR6"
+      },
+      {
+        "account_id": "6cE7qYwqY",
+        "amount": -50.0,
+        "category": ["Shopping", "Clothing"],
+        "category_id": "19012000",
+        "date": "2024-11-03",
+        "iso_currency_code": "USD",
+        "merchant_name": "CLOTHING STORE",
+        "name": "Clothes purchase",
+        "transaction_id": "XeFzq0zpS7"
+      },
+      {
+        "account_id": "6cE7qYwqY",
+        "amount": -30.0,
+        "category": ["Entertainment", "Movies"],
+        "category_id": "17018000",
+        "date": "2024-11-04",
+        "iso_currency_code": "USD",
+        "merchant_name": "MOVIE THEATER",
+        "name": "Movie tickets",
+        "transaction_id": "YeGzq1zpT8"
+      },
+      {
+        "account_id": "6cE7qYwqY",
+        "amount": -10.0,
+        "category": ["Food and Drink", "Restaurant"],
+        "category_id": "13005000",
+        "date": "2024-11-05",
+        "iso_currency_code": "USD",
+        "merchant_name": "RESTAURANT",
+        "name": "Dinner at RESTAURANT",
+        "transaction_id": "ZeHzq2zpU9"
+      },
+      {
+        "account_id": "6cE7qYwqY",
+        "amount": -100.0,
+        "category": ["Travel", "Flight"],
+        "category_id": "22001000",
+        "date": "2024-11-06",
+        "iso_currency_code": "USD",
+        "merchant_name": "AIRLINE",
+        "name": "Flight ticket",
+        "transaction_id": "AeIzq3zpV0"
+      },
+      {
+        "account_id": "6cE7qYwqY",
+        "amount": -75.0,
+        "category": ["Shopping", "Electronics"],
+        "category_id": "19013000",
+        "date": "2024-11-07",
+        "iso_currency_code": "USD",
+        "merchant_name": "ELECTRONICS STORE",
+        "name": "Gadget purchase",
+        "transaction_id": "BeJzq4zpW1"
+      },
+      {
+        "account_id": "6cE7qYwqY",
+        "amount": -25.0,
+        "category": ["Transport", "Bus"],
+        "category_id": "22014000",
+        "date": "2024-11-08",
+        "iso_currency_code": "USD",
+        "merchant_name": "BUS SERVICE",
+        "name": "Bus ride",
+        "transaction_id": "CeKzq5zpX2"
+      },
+      {
+        "account_id": "6cE7qYwqY",
+        "amount": -40.0,
+        "category": ["Entertainment", "Music"],
+        "category_id": "17021000",
+        "date": "2024-11-09",
+        "iso_currency_code": "USD",
+        "merchant_name": "MUSIC STORE",
+        "name": "Music purchase",
+        "transaction_id": "DeLzq6zpY3"
+      }
+    ]
+  },
+  "7dF8rZxrZ": {
+    "name": "Account 3",
+    "id": "7dF8rZxrZ",
+    "transactions": [
+      {
+        "account_id": "7dF8rZxrZ",
+        "amount": -50.0,
+        "category": ["Shopping", "Clothing"],
+        "category_id": "19012000",
+        "date": "2024-11-03",
+        "iso_currency_code": "USD",
+        "merchant_name": "CLOTHING STORE",
+        "name": "Clothes purchase",
+        "transaction_id": "GeOzq9zpB6"
+      },
+      {
+        "account_id": "7dF8rZxrZ",
+        "amount": -15.0,
+        "category": ["Food and Drink", "Cafe"],
+        "category_id": "13005000",
+        "date": "2024-11-04",
+        "iso_currency_code": "USD",
+        "merchant_name": "CAFE",
+        "name": "Coffee at CAFE",
+        "transaction_id": "HePzq0zpC7"
+      },
+      {
+        "account_id": "7dF8rZxrZ",
+        "amount": -100.0,
+        "category": ["Travel", "Flight"],
+        "category_id": "22001000",
+        "date": "2024-11-05",
+        "iso_currency_code": "USD",
+        "merchant_name": "AIRLINE",
+        "name": "Flight ticket",
+        "transaction_id": "IeQzq1zpD8"
+      },
+      {
+        "account_id": "7dF8rZxrZ",
+        "amount": -75.0,
+        "category": ["Shopping", "Electronics"],
+        "category_id": "19013000",
+        "date": "2024-11-06",
+        "iso_currency_code": "USD",
+        "merchant_name": "ELECTRONICS STORE",
+        "name": "Gadget purchase",
+        "transaction_id": "JeRzq2zpE9"
+      },
+      {
+        "account_id": "7dF8rZxrZ",
+        "amount": -25.0,
+        "category": ["Transport", "Bus"],
+        "category_id": "22014000",
+        "date": "2024-11-07",
+        "iso_currency_code": "USD",
+        "merchant_name": "BUS SERVICE",
+        "name": "Bus ride",
+        "transaction_id": "KeSzq3zpF0"
+      },
+      {
+        "account_id": "7dF8rZxrZ",
+        "amount": -40.0,
+        "category": ["Entertainment", "Music"],
+        "category_id": "17021000",
+        "date": "2024-11-08",
+        "iso_currency_code": "USD",
+        "merchant_name": "MUSIC STORE",
+        "name": "Music purchase",
+        "transaction_id": "LeTzq4zpG1"
+      },
+      {
+        "account_id": "7dF8rZxrZ",
+        "amount": -65.23,
+        "category": ["Food and Drink", "Grocery Store"],
+        "category_id": "13008000",
+        "date": "2024-11-09",
+        "iso_currency_code": "USD",
+        "merchant_name": "GROCERY STORE",
+        "name": "Groceries at GROCERY STORE",
+        "transaction_id": "MeUzq5zpH2"
+      }
+    ]
+  },
+  "8eG9sYysA": {
+    "name": "Account 4",
+    "id": "8eG9sYysA",
+    "transactions": [
+      {
+        "account_id": "8eG9sYysA",
+        "amount": -40.12,
+        "category": ["Entertainment", "Music"],
+        "category_id": "17021000",
+        "date": "2024-11-01",
+        "iso_currency_code": "USD",
+        "merchant_name": "MUSIC STORE",
+        "name": "Music purchase",
+        "transaction_id": "NeVzq6zpI3"
+      },
+      {
+        "account_id": "8eG9sYysA",
+        "amount": -15.0,
+        "category": ["Transport", "Bus"],
+        "category_id": "22014000",
+        "date": "2024-11-02",
+        "iso_currency_code": "USD",
+        "merchant_name": "BUS SERVICE",
+        "name": "Bus ride",
+        "transaction_id": "OeWzq7zpJ4"
+      },
+      {
+        "account_id": "8eG9sYysA",
+        "amount": -25.0,
+        "category": ["Food and Drink", "Restaurant"],
+        "category_id": "13005000",
+        "date": "2024-11-03",
+        "iso_currency_code": "USD",
+        "merchant_name": "RESTAURANT",
+        "name": "Dinner at RESTAURANT",
+        "transaction_id": "PeXzq8zpK5"
+      },
+      {
+        "account_id": "8eG9sYysA",
+        "amount": -50.0,
+        "category": ["Shopping", "Clothing"],
+        "category_id": "19012000",
+        "date": "2024-11-04",
+        "iso_currency_code": "USD",
+        "merchant_name": "CLOTHING STORE",
+        "name": "Clothes purchase",
+        "transaction_id": "QeYzq9zpL6"
+      },
+      {
+        "account_id": "8eG9sYysA",
+        "amount": -30.0,
+        "category": ["Entertainment", "Movies"],
+        "category_id": "17018000",
+        "date": "2024-11-05",
+        "iso_currency_code": "USD",
+        "merchant_name": "MOVIE THEATER",
+        "name": "Movie tickets",
+        "transaction_id": "ReZzq0zpM7"
+      },
+      {
+        "account_id": "8eG9sYysA",
+        "amount": -10.0,
+        "category": ["Food and Drink", "Cafe"],
+        "category_id": "13005000",
+        "date": "2024-11-06",
+        "iso_currency_code": "USD",
+        "merchant_name": "CAFE",
+        "name": "Coffee at CAFE",
+        "transaction_id": "SeAzq1zpN8"
+      },
+      {
+        "account_id": "8eG9sYysA",
+        "amount": -100.0,
+        "category": ["Travel", "Flight"],
+        "category_id": "22001000",
+        "date": "2024-11-07",
+        "iso_currency_code": "USD",
+        "merchant_name": "AIRLINE",
+        "name": "Flight ticket",
+        "transaction_id": "TeBzq2zpO9"
+      },
+      {
+        "account_id": "8eG9sYysA",
+        "amount": -75.0,
+        "category": ["Shopping", "Electronics"],
+        "category_id": "19013000",
+        "date": "2024-11-08",
+        "iso_currency_code": "USD",
+        "merchant_name": "ELECTRONICS STORE",
+        "name": "Gadget purchase",
+        "transaction_id": "UeCzq3zpP0"
+      },
+      {
+        "account_id": "8eG9sYysA",
+        "amount": -65.23,
+        "category": ["Food and Drink", "Grocery Store"],
+        "category_id": "13008000",
+        "date": "2024-11-09",
+        "iso_currency_code": "USD",
+        "merchant_name": "GROCERY STORE",
+        "name": "Groceries at GROCERY STORE",
+        "transaction_id": "VeDzq4zpQ1"
       }
     ]
   }
