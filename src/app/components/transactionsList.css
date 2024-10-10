@@ -1,0 +1,51 @@
+/* src/app/components/TransactionsList.css */
+.transactions-list {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transactions-list h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.transactions-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transaction-item {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.transaction-item:hover {
+  background-color: #f1f1f1;
+}
+
+.transaction-item p {
+  margin: 5px 0;
+}
+
+.transaction-item strong {
+  color: #555;
+}
+
+.transaction-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transaction-row p {
+  flex: 1;
+  margin: 0 10px;
+}
