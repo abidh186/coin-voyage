@@ -27,17 +27,17 @@ ChartJS.register(
 interface ChartDisplayProps {
   categoryData: { [key: string]: number };
   accountData: { [key: string]: number };
-  periodData: { [key: string]: number };
+  timeFrameData: { [key: string]: number };
 }
 
 const ChartDisplay: React.FC<ChartDisplayProps> = ({
   categoryData,
   accountData,
-  periodData,
+  timeFrameData,
 }) => {
-  const [viewMode, setViewMode] = useState<'category' | 'account' | 'period'>(
-    'category'
-  );
+  const [viewMode, setViewMode] = useState<
+    'category' | 'account' | 'timeFrame'
+  >('category');
 
   const sortedCategoryData = Object.entries(categoryData).sort(
     (a, b) => a[1] - b[1]
@@ -45,7 +45,7 @@ const ChartDisplay: React.FC<ChartDisplayProps> = ({
   const sortedAccountData = Object.entries(accountData).sort(
     (a, b) => a[1] - b[1]
   );
-  const sortedPeriodData = Object.entries(periodData).sort(
+  const sortedTimeFrameData = Object.entries(timeFrameData).sort(
     (a, b) => new Date(a[0]).getTime() - new Date(b[0]).getTime()
   );
 
@@ -55,7 +55,7 @@ const ChartDisplay: React.FC<ChartDisplayProps> = ({
         ? sortedCategoryData.map(([key]) => key)
         : viewMode === 'account'
         ? sortedAccountData.map(([key]) => key)
-        : sortedPeriodData.map(([key]) => key),
+        : sortedTimeFrameData.map(([key]) => key),
     datasets: [
       ...(viewMode === 'category'
         ? [
@@ -79,11 +79,11 @@ const ChartDisplay: React.FC<ChartDisplayProps> = ({
             },
           ]
         : []),
-      ...(viewMode === 'period'
+      ...(viewMode === 'timeFrame'
         ? [
             {
-              label: 'Amount by Period',
-              data: sortedPeriodData.map(([, amount]) => amount),
+              label: 'Amount by TimeFrame',
+              data: sortedTimeFrameData.map(([, amount]) => amount),
               backgroundColor: 'rgba(255, 159, 64, 0.2)',
               borderColor: 'rgba(255, 159, 64, 1)',
               borderWidth: 1,
@@ -108,7 +108,7 @@ const ChartDisplay: React.FC<ChartDisplayProps> = ({
         onClick: (e: ChartEvent, legendItem: LegendItem) => {
           const index = legendItem.datasetIndex;
           setViewMode(
-            index === 0 ? 'category' : index === 1 ? 'account' : 'period'
+            index === 0 ? 'category' : index === 1 ? 'account' : 'timeFrame'
           );
         },
         labels: {
@@ -131,12 +131,14 @@ const ChartDisplay: React.FC<ChartDisplayProps> = ({
                   viewMode !== 'account' ? 'rgba(153, 102, 255, 0.2)' : 'white',
               },
               {
-                text: 'Amount by Period',
+                text: 'Amount by TimeFrame',
                 fillStyle: 'rgba(255, 159, 64, 0.2)',
                 strokeStyle: 'rgba(255, 159, 64, 1)',
                 datasetIndex: 2,
                 fontColor:
-                  viewMode !== 'period' ? 'rgba(255, 159, 64, 0.2)' : 'white',
+                  viewMode !== 'timeFrame'
+                    ? 'rgba(255, 159, 64, 0.2)'
+                    : 'white',
               },
             ];
           },
@@ -161,7 +163,8 @@ const ChartDisplay: React.FC<ChartDisplayProps> = ({
   return (
     <div>
       <p>
-        Click the legend to toggle between Category, Account, and Period data
+        Click the legend to toggle between Category, Account, and Time based
+        transactions
       </p>
       <Bar data={chartData} options={chartOptions} />
     </div>
