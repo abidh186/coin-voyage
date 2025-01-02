@@ -13,6 +13,7 @@
     "date-fns": "^4.1.0",
     "dotenv": "^16.4.5",
     "next": "^14.2.12",
+    "next-auth": "^4.24.11",
     "plaid": "^27.0.0",
     "react": "^18",
     "react-chartjs-2": "^5.2.0",

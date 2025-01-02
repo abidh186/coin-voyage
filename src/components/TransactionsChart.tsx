@@ -1,25 +1,25 @@
 import React from 'react';
-import ChartDisplay from './chart';
+import ChartDisplay from './ChartDisplay';
 
 interface TransactionsProps {
   categoryData: { [key: string]: number };
   accountData: { [key: string]: number };
-  timeFrameData: { [key: string]: number };
+  weeklyData: { [key: string]: number };
 }
 
 export default function TransactionsChart({
   categoryData,
   accountData,
-  timeFrameData,
+  weeklyData,
 }: TransactionsProps) {
-  const sortedTimeFrameData = Object.keys(timeFrameData)
+  const sortedWeeklyData = Object.keys(weeklyData)
     .sort(
       (a, b) =>
         new Date(a.split(' - ')[0]).getTime() -
         new Date(b.split(' - ')[0]).getTime()
     )
     .reduce((acc, key) => {
-      acc[key] = timeFrameData[key];
+      acc[key] = weeklyData[key];
       return acc;
     }, {} as { [key: string]: number });
 
@@ -28,7 +28,7 @@ export default function TransactionsChart({
       <ChartDisplay
         categoryData={categoryData}
         accountData={accountData}
-        timeFrameData={sortedTimeFrameData}
+        weeklyData={sortedWeeklyData}
       />
     </div>
   );

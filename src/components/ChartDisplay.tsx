@@ -1,4 +1,4 @@
-// src/app/components/chart.tsx
+// src/app/components/chartDisplay.tsx
 'use client';
 import React, { useState } from 'react';
 import { Bar } from 'react-chartjs-2';
@@ -27,17 +27,17 @@ ChartJS.register(
 interface ChartDisplayProps {
   categoryData: { [key: string]: number };
   accountData: { [key: string]: number };
-  timeFrameData: { [key: string]: number };
+  weeklyData: { [key: string]: number };
 }
 
 const ChartDisplay: React.FC<ChartDisplayProps> = ({
   categoryData,
   accountData,
-  timeFrameData,
+  weeklyData,
 }) => {
-  const [viewMode, setViewMode] = useState<
-    'category' | 'account' | 'timeFrame'
-  >('category');
+  const [viewMode, setViewMode] = useState<'category' | 'account' | 'weekly'>(
+    'category'
+  );
 
   const sortedCategoryData = Object.entries(categoryData).sort(
     (a, b) => a[1] - b[1]
@@ -45,7 +45,7 @@ const ChartDisplay: React.FC<ChartDisplayProps> = ({
   const sortedAccountData = Object.entries(accountData).sort(
     (a, b) => a[1] - b[1]
   );
-  const sortedTimeFrameData = Object.entries(timeFrameData).sort(
+  const sortedWeeklyData = Object.entries(weeklyData).sort(
     (a, b) => new Date(a[0]).getTime() - new Date(b[0]).getTime()
   );
 
@@ -55,7 +55,7 @@ const ChartDisplay: React.FC<ChartDisplayProps> = ({
         ? sortedCategoryData.map(([key]) => key)
         : viewMode === 'account'
         ? sortedAccountData.map(([key]) => key)
-        : sortedTimeFrameData.map(([key]) => key),
+        : sortedWeeklyData.map(([key]) => key),
     datasets: [
       ...(viewMode === 'category'
         ? [
@@ -79,11 +79,11 @@ const ChartDisplay: React.FC<ChartDisplayProps> = ({
             },
           ]
         : []),
-      ...(viewMode === 'timeFrame'
+      ...(viewMode === 'weekly'
         ? [
             {
-              label: 'Amount by TimeFrame',
-              data: sortedTimeFrameData.map(([, amount]) => amount),
+              label: 'Amount by Weekly',
+              data: sortedWeeklyData.map(([, amount]) => amount),
               backgroundColor: 'rgba(255, 159, 64, 0.2)',
               borderColor: 'rgba(255, 159, 64, 1)',
               borderWidth: 1,
@@ -108,7 +108,7 @@ const ChartDisplay: React.FC<ChartDisplayProps> = ({
         onClick: (e: ChartEvent, legendItem: LegendItem) => {
           const index = legendItem.datasetIndex;
           setViewMode(
-            index === 0 ? 'category' : index === 1 ? 'account' : 'timeFrame'
+            index === 0 ? 'category' : index === 1 ? 'account' : 'weekly'
           );
         },
         labels: {
@@ -131,14 +131,12 @@ const ChartDisplay: React.FC<ChartDisplayProps> = ({
                   viewMode !== 'account' ? 'rgba(153, 102, 255, 0.2)' : 'white',
               },
               {
-                text: 'Amount by TimeFrame',
+                text: 'Amount by Weekly',
                 fillStyle: 'rgba(255, 159, 64, 0.2)',
                 strokeStyle: 'rgba(255, 159, 64, 1)',
                 datasetIndex: 2,
                 fontColor:
-                  viewMode !== 'timeFrame'
-                    ? 'rgba(255, 159, 64, 0.2)'
-                    : 'white',
+                  viewMode !== 'weekly' ? 'rgba(255, 159, 64, 0.2)' : 'white',
               },
             ];
           },
@@ -163,7 +161,7 @@ const ChartDisplay: React.FC<ChartDisplayProps> = ({
   return (
     <div>
       <p>
-        Click the legend to toggle between Category, Account, and Time based
+        Click the legend to toggle between Category, Account, and Weekly
         transactions
       </p>
       <Bar data={chartData} options={chartOptions} />

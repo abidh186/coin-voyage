@@ -1,16 +1,27 @@
-import React from 'react';
-import HomeComponent from './components/landing';
-import HeaderComponent from '../app/components/header';
-import Footer from '../app/components/footer';
+'use client';
 
-const Home: React.FC = () => {
+import { useSession, signIn } from 'next-auth/react';
+import Landing from '@/components/Landing';
+
+export default function TestAuth() {
+  const { data: session, status } = useSession();
+
+  if (status === 'loading') {
+    return <div>Loading...</div>;
+  }
+
+  if (session) {
+    return (
+      <div>
+        <Landing name={session.user?.name ?? 'Guest'} />
+      </div>
+    );
+  }
+
   return (
     <div>
-      <HeaderComponent />
-      <HomeComponent />
-      <Footer />
+      Not signed in <br />
+      <button onClick={() => signIn('google')}>Sign in with Google</button>
     </div>
   );
-};
-
-export default Home;
+}

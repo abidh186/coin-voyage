@@ -1,6 +1,6 @@
 // src/app/components/TransactionsList.tsx
 import React from 'react';
-import './transactionsList.css'; // Import the CSS file
+import './transactions-list.css'; // Import the CSS file
 
 interface Transaction {
   account_id: string;
